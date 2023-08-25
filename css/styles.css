@@ -8,6 +8,7 @@
 ul,
 ol {
   padding: 0;
+  list-style: none;
 }
 body,
 h1,
@@ -72,9 +73,6 @@ padding: 64px 0;
 		padding: 100px 0;
 	}
 }
-.list {
-list-style: none;
-}
 /* === display:none === */
 		/* === bestsellers SECTION === */
 		.bestsellers {
@@ -103,12 +101,12 @@ list-style: none;
 				flex-wrap: wrap;
 				flex-direction: row;
 				justify-content: center;
-				gap: 64px 0px;
+				gap: 32px 32px;
 			}
 		}
 		@media screen and (min-width:1158px) {
 			.bestsellers-mainlist {
-				gap: 24px;
+		
 			}
 		}
 
@@ -119,7 +117,15 @@ list-style: none;
 			/* border-radius: 0px 0px 4px 4px;
 			box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08); */
 		}
-
+		.mobile-hidden {
+			display: none;
+		}
+		@media screen and (min-width:768px) {
+			.mobile-hidden {
+				display: inline;
+			}
+			
+		}
 		.bestsellers-names {
 			color: var(--hero-background);
 			font-size: 20px;
