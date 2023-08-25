@@ -76,11 +76,12 @@ padding: 64px 0;
 /* === display:none === */
 		/* === bestsellers SECTION === */
 		.bestsellers {
-			background-color: var(--background-lite);
+			height: 637px;
 		}
 		.bestsellers-description {
 			font-size: 28px;
 			line-height: 1.5;
+			font-weight: 400;
 			text-align: center;
 			text-transform: uppercase;
 			color: var(--blue-font);
@@ -104,7 +105,7 @@ padding: 64px 0;
 				display: flex;
 				flex-wrap: wrap;
 				flex-direction: row;
-				/* justify-content: center; */
+				justify-content: center;
 				gap: 32px 32px;
 			}
 		}
@@ -130,6 +131,7 @@ padding: 64px 0;
 		}
 		.bestsellers-names {
 			color: var(--blue-font);
+			font-weight: 400;
 			font-size: 16px;
 			line-height: 1.5;
 			margin-top: 14px;
