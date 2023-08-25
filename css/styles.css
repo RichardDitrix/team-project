@@ -58,7 +58,7 @@ img {
 	padding-right: 32px;
 	}
  }
- @media screen and (min-width: 1158px) {
+ @media screen and (min-width: 1440px) {
 	.container {
 	  max-width: 1440px;
 	  padding-left: 60px;
@@ -104,7 +104,7 @@ padding: 64px 0;
 				gap: 32px 32px;
 			}
 		}
-		@media screen and (min-width:1158px) {
+		@media screen and (min-width:1440px) {
 			.bestsellers-mainlist {
 		
 			}
