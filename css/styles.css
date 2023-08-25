@@ -108,7 +108,7 @@ padding: 64px 0;
 		}
 		@media screen and (min-width:1440px) {
 			.bestsellers-mainlist {
-		
+					gap: 20px 20px;
 			}
 		}
 
@@ -124,8 +124,8 @@ padding: 64px 0;
 			.mobile-hidden {
 				display: inline;
 			}
-			
 		}
+	
 		.bestsellers-names {
 			color: var(--blue-font);
 			font-weight: 400;
@@ -152,3 +152,4 @@ padding: 64px 0;
 				font-size: 18px;
 			}
 		}
+		
